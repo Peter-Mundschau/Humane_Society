@@ -6,9 +6,73 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2016-04-01T12:10:35" Importance="High" Text="Code generation or text transformation started." />
-  <Error Timestamp="2016-04-01T12:10:35" Importance="High" Text="No templates were found to process.  Configure templates by choosing 'Configure Default Code Generation Settings...' from the 'Architecture' menu, or change the selection for which code generation is launched." />
-  <Message Timestamp="2016-04-01T12:10:35" Importance="Diagnostic" Text="The selection included 1 elements which were not bound to a template." />
-  <Warning Timestamp="2016-04-01T12:10:35" Importance="Medium" Text="'Humane_Society::Class2' -  (Class): no bound template." />
-  <Message Timestamp="2016-04-01T12:10:35" Importance="High" Text="Code generation complete. Errors: 1. Warnings: 1." />
+  <Message Timestamp="2016-04-04T13:57:22" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2016-04-04T13:57:22" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2016-04-04T13:57:22" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-04-04T13:57:22" Importance="Diagnostic" Text="ProjectPath = ..\Humane_SocietyLib\Humane_SocietyLib.csproj" />
+  <Message Timestamp="2016-04-04T13:57:22" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-04-04T13:57:22" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-04-04T13:57:22" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-04-04T13:57:22" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-04-04T13:57:22" Importance="Medium" Text="Humane_Society's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'Humane_Society::HSOperations' -  (Class), 'Humane_Society::UI' -  (Class), 'Humane_Society::People' -  (Class), 'Humane_Society::Employees' -  (Class), 'Humane_Society::Customers' -  (Class), 'Humane_Society::Kennels' -  (Class), 'Humane_Society::Animals' -  (Class), 'Humane_Society::TrackingSys' -  (Class), 'Humane_Society::MedicalOps' -  (Class), 'Humane_Society::TypesofAnimals' -  (Class), 'Humane_Society::FoodOps' -  (Class), 'Humane_Society::AdoptionOps' -  (Class), 'Humane_Society::BillingOps' -  (Class) " />
+  <Message Timestamp="2016-04-04T13:57:22" Importance="Medium" Text="'Humane_Society::HSOperations' -  (Class) : success (file replaced) - C:\Users\USER\Documents\Visual Studio 2015\Projects\Humane_SocietyLib\GeneratedCode\HSOperations.cs" />
+  <Message Timestamp="2016-04-04T13:57:22" Importance="Medium" Text="'Humane_Society::UI' -  (Class) : success (file replaced) - C:\Users\USER\Documents\Visual Studio 2015\Projects\Humane_SocietyLib\GeneratedCode\UI.cs" />
+  <Message Timestamp="2016-04-04T13:57:22" Importance="Medium" Text="'Humane_Society::People' -  (Class) : success (file replaced) - C:\Users\USER\Documents\Visual Studio 2015\Projects\Humane_SocietyLib\GeneratedCode\People.cs" />
+  <Message Timestamp="2016-04-04T13:57:22" Importance="Medium" Text="'Humane_Society::Employees' -  (Class) : success (file replaced) - C:\Users\USER\Documents\Visual Studio 2015\Projects\Humane_SocietyLib\GeneratedCode\Employees.cs" />
+  <Message Timestamp="2016-04-04T13:57:23" Importance="Medium" Text="'Humane_Society::Customers' -  (Class) : success (file replaced) - C:\Users\USER\Documents\Visual Studio 2015\Projects\Humane_SocietyLib\GeneratedCode\Customers.cs" />
+  <Message Timestamp="2016-04-04T13:57:23" Importance="Medium" Text="'Humane_Society::Kennels' -  (Class) : success (file replaced) - C:\Users\USER\Documents\Visual Studio 2015\Projects\Humane_SocietyLib\GeneratedCode\Kennels.cs" />
+  <Message Timestamp="2016-04-04T13:57:23" Importance="Medium" Text="'Humane_Society::Animals' -  (Class) : success (file replaced) - C:\Users\USER\Documents\Visual Studio 2015\Projects\Humane_SocietyLib\GeneratedCode\Animals.cs" />
+  <Message Timestamp="2016-04-04T13:57:23" Importance="Medium" Text="'Humane_Society::TrackingSys' -  (Class) : success (file replaced) - C:\Users\USER\Documents\Visual Studio 2015\Projects\Humane_SocietyLib\GeneratedCode\TrackingSys.cs" />
+  <Message Timestamp="2016-04-04T13:57:23" Importance="Medium" Text="'Humane_Society::MedicalOps' -  (Class) : success (file replaced) - C:\Users\USER\Documents\Visual Studio 2015\Projects\Humane_SocietyLib\GeneratedCode\MedicalOps.cs" />
+  <Message Timestamp="2016-04-04T13:57:23" Importance="Medium" Text="'Humane_Society::TypesofAnimals' -  (Class) : success (file replaced) - C:\Users\USER\Documents\Visual Studio 2015\Projects\Humane_SocietyLib\GeneratedCode\TypesofAnimals.cs" />
+  <Message Timestamp="2016-04-04T13:57:23" Importance="Medium" Text="'Humane_Society::FoodOps' -  (Class) : success (file replaced) - C:\Users\USER\Documents\Visual Studio 2015\Projects\Humane_SocietyLib\GeneratedCode\FoodOps.cs" />
+  <Message Timestamp="2016-04-04T13:57:23" Importance="Medium" Text="'Humane_Society::AdoptionOps' -  (Class) : success (file replaced) - C:\Users\USER\Documents\Visual Studio 2015\Projects\Humane_SocietyLib\GeneratedCode\AdoptionOps.cs" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Medium" Text="'Humane_Society::BillingOps' -  (Class) : success (file replaced) - C:\Users\USER\Documents\Visual Studio 2015\Projects\Humane_SocietyLib\GeneratedCode\BillingOps.cs" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="ProjectPath = ..\Humane_SocietyLib\Humane_SocietyLib.csproj" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Medium" Text="Humane_Society's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'Humane_Society::INoise' -  (Interface) " />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Medium" Text="'Humane_Society::INoise' -  (Interface) : success (file replaced) - C:\Users\USER\Documents\Visual Studio 2015\Projects\Humane_SocietyLib\GeneratedCode\INoise.cs" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="ProjectPath = ..\Humane_SocietyLib\Humane_SocietyLib.csproj" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Medium" Text="Humane_Society's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'Humane_Society::HSOperations' -  (Class), 'Humane_Society::UI' -  (Class), 'Humane_Society::People' -  (Class), 'Humane_Society::Employees' -  (Class), 'Humane_Society::Customers' -  (Class), 'Humane_Society::Kennels' -  (Class), 'Humane_Society::Animals' -  (Class), 'Humane_Society::TrackingSys' -  (Class), 'Humane_Society::MedicalOps' -  (Class), 'Humane_Society::TypesofAnimals' -  (Class), 'Humane_Society::FoodOps' -  (Class), 'Humane_Society::AdoptionOps' -  (Class), 'Humane_Society::BillingOps' -  (Class) " />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::HSOperations' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::UI' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::People' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::Employees' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::Customers' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::Kennels' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::Animals' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::TrackingSys' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::MedicalOps' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::TypesofAnimals' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::FoodOps' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::AdoptionOps' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::BillingOps' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="The selection included 15 elements which were not bound to a template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society' -  (ModelStoreModel): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'int' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'string' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'boolean' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'decimal' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="Diagnostic" Text="'Humane_Society::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-04T13:57:24" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
 </Log>
