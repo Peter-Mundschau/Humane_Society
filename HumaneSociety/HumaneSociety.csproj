@@ -47,6 +47,7 @@
     <Compile Include="Animal.cs" />
     <Compile Include="BillingOp.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="Dog.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="FoodOp.cs" />
     <Compile Include="HSOperation.cs" />

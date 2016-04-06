@@ -9,12 +9,29 @@ namespace HumaneSociety
    public abstract class Animal
     {
         private float animalWeight;
-        private int animalType;
+        private string animalType;
         private string animalName;
         private bool hasShots;
         private bool isSick;
         private bool isFed;
-        public virtual int AnimalType
+        private int animalId;
+        private int kennelNumber;
+        public Animal (string animalType, string animalName, float animalWeight, bool hasShots, bool isSick, bool isFed, int kennelNumber)
+        
+        {
+            this.animalType = animalType;
+            this.animalName = animalName;
+            this.animalWeight = animalWeight;
+            this.hasShots = hasShots;
+            this.isSick = isSick;
+            this.isFed = isFed;
+            this.kennelNumber = kennelNumber;
+            
+        }
+
+
+        
+        public virtual string AnimalType
         {
             get
             {
@@ -22,6 +39,21 @@ namespace HumaneSociety
             }
             set
             {
+                switch (value)
+                {
+                    case "Dog":
+                        animalType = value;
+                        break;
+                    case "Cat":
+                        animalType = value;
+                        break;
+                    case "Bird":
+                        animalType = value;
+                        break;
+                    default:
+                        throw new Exception("We don't accept that type of Animal");
+                       
+                }
                 animalType = value;
             }
         }
@@ -42,6 +74,7 @@ namespace HumaneSociety
         {
             get
             {
+             
                 return hasShots;
             }
             set
@@ -52,11 +85,11 @@ namespace HumaneSociety
 
         public virtual bool IsSick
         {
-            get;
-            set;
+            get { return isSick; }
+            set{ isSick = value; }
         }
 
-        public virtual int AnimalID
+        public virtual int AnimalId
         {
             get;
             set;

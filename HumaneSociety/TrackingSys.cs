@@ -8,7 +8,7 @@ namespace HumaneSociety
 {
      public class TrackingSys
     {
-         List<Animal> animals;
+        public List<Animal> animals;
          List<Kennel> kennels;
          List<Customer> customers;
          List<FoodOp> foodOps;

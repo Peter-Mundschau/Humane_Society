@@ -7,10 +7,13 @@ using System.Threading.Tasks;
 namespace HumaneSociety
 {
     public class TypeOfAnimal : Animal
+    
     {
+
+
         public virtual bool dog
         {
-            get;
+            get ; 
             set;
         }
 
@@ -25,6 +28,26 @@ namespace HumaneSociety
             get;
             set;
         }
+
+        public void Dog()
+        {
+            
+
+        }
+
+
+        public void Cat()
+        {
+
+
+        }
+
+        public void Bird()
+        {
+
+
+        }
+
 
     }
 }

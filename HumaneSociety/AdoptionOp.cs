@@ -6,16 +6,34 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety
 {
-    public class AdoptionOp
+    public class AdoptionOp : Animal
+
     {
+        public Animal(string animalType, string animalName, float animalWeight, bool hasShots, bool isSick, bool isFed, int kennelNumber)
+
+        {
+            this.animalType = animalType;
+            this.animalName = animalName;
+            this.animalWeight = animalWeight;
+            this.hasShots = hasShots;
+            this.isSick = isSick;
+            this.isFed = isFed;
+            this.kennelNumber = kennelNumber;
+
+        }
+
         public virtual HSOperation HSOperations
         {
             get;
             set;
         }
 
-        public virtual void addAnimal()
+        TrackingSys addAnimal = new TrackingSys();
+        public  void addAnimal(TrackingSys animals)
         {
+
+          TrackingSys.addAnimal.animals (new Animal)
+
             throw new System.NotImplementedException();
         }
 
@@ -23,5 +41,8 @@ namespace HumaneSociety
         {
             throw new System.NotImplementedException();
         }
+
+
     }
+
 }
