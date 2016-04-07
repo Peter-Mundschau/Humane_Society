@@ -6,39 +6,38 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety
 {
-    public class TypeOfAnimal : Animal
+    public class TypeOfAnimal 
     
     {
-
+        public TypeOfAnimal typeOfAnimal;
 
         public virtual bool dog
         {
-            get ; 
-            set;
+            get { return true; }
+            set { dog = value; }
         }
 
         public virtual bool cat
         {
-            get;
-            set;
+            get { return true; }
+            set { cat = value; }
         }
 
         public virtual bool bird
         {
-            get;
-            set;
+            get { return true; }
+            set { bird = value; }
         }
 
-        public void Dog()
-        {
-            
+        public void  Dog()
+        {    
 
         }
 
 
         public void Cat()
         {
-
+            
 
         }
 

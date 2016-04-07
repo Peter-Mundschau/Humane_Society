@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety
 {
-    class FoodOp
+    public class FoodOp
     {
         public virtual int dogFood
         {

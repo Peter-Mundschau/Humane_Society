@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety
 {
-    public class Dog
+    public class Dog : Animal
     {
         
-        public Dog ()
+        public Dog (string animalType,string animalName,float animalWeight,bool hasShots,bool isSick, bool isFed, int kennelNumber, int animalId ):base(animalType,animalName,animalWeight,hasShots,isSick,isFed,kennelNumber,animalId)
         {
-            Dog Dogs = new Dog();
+            animalType = "Dog";
         }
+
+
         
     
     }

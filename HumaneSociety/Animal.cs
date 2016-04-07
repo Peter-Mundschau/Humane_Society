@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety
 {
-   public abstract class Animal
+   public abstract class Animal 
     {
         private float animalWeight;
         private string animalType;
@@ -16,8 +16,8 @@ namespace HumaneSociety
         private bool isFed;
         private int animalId;
         private int kennelNumber;
-        public Animal (string animalType, string animalName, float animalWeight, bool hasShots, bool isSick, bool isFed, int kennelNumber)
-        
+        public Animal(string animalType, string animalName, float animalWeight, bool hasShots, bool isSick, bool isFed, int kennelNumber, int animalId)
+
         {
             this.animalType = animalType;
             this.animalName = animalName;
@@ -25,7 +25,8 @@ namespace HumaneSociety
             this.hasShots = hasShots;
             this.isSick = isSick;
             this.isFed = isFed;
-            this.kennelNumber = kennelNumber;
+            this.kennelNumber = 
+            this.animalId = animalId;
             
         }
 
@@ -108,11 +109,11 @@ namespace HumaneSociety
         }
 
 
-        public virtual Kennel Kennels
-        {
-            get;
-            set;
-        }
+        //    public virtual Kennel Kennels
+        //    {
+        //        get;
+        //        set;
+        //    }
 
     }
 }

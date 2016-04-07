@@ -10,15 +10,19 @@ namespace HumaneSociety
     {
         public AdoptionOp AdoptionOps;
         public MedicalOp MedicalOps;
-
+        public EnterAnimal EnterAnimals;
         public UI()
         {
             AdoptionOps = new AdoptionOp();
             MedicalOps = new MedicalOp();
+            EnterAnimals = new EnterAnimal();
+          
         }
 
         public void UserInterface()
         {
+            
+            
             int userInput;
             userInput = Console.Read();
 
@@ -32,7 +36,8 @@ namespace HumaneSociety
             switch (userInput)
             {
                 case 1:
-                    AdoptionOps.addAnimal();
+                   
+                   // AdoptionOps.addAnimal();
                     break;
                 case 2:
                     AdoptionOps.removeAnimal();
@@ -49,11 +54,7 @@ namespace HumaneSociety
 
         }
 
-        public void EnterAnimal()
-        {
 
-
-        }
 
     }
 }
