@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety
 {
-   public abstract class Animal 
+    public abstract class Animal
     {
-        private float animalWeight;
+        private double animalWeight;
         private string animalType;
         private string animalName;
         private bool hasShots;
@@ -16,7 +16,8 @@ namespace HumaneSociety
         private bool isFed;
         private int animalId;
         private int kennelNumber;
-        public Animal(string animalType, string animalName, float animalWeight, bool hasShots, bool isSick, bool isFed, int kennelNumber, int animalId)
+        public Kennel kennels;
+        public Animal(string animalType, string animalName, double animalWeight, bool hasShots, bool isSick, bool isFed, int kennelNumber, int animalId)
 
         {
             this.animalType = animalType;
@@ -25,13 +26,16 @@ namespace HumaneSociety
             this.hasShots = hasShots;
             this.isSick = isSick;
             this.isFed = isFed;
-            this.kennelNumber = 
+            this.kennelNumber = kennelNumber;
             this.animalId = animalId;
-            
+
         }
 
+        public Animal()
+        {
+            kennels = new Kennel();
+        }
 
-        
         public virtual string AnimalType
         {
             get
@@ -42,18 +46,18 @@ namespace HumaneSociety
             {
                 switch (value)
                 {
-                    case "Dog":
-                        animalType = value;
+                    case "1":
+                        animalType = "Dog";
                         break;
-                    case "Cat":
-                        animalType = value;
+                    case "2":
+                        animalType = "Cat";
                         break;
-                    case "Bird":
-                        animalType = value;
+                    case "3":
+                        animalType = "Bird";
                         break;
                     default:
                         throw new Exception("We don't accept that type of Animal");
-                       
+
                 }
                 animalType = value;
             }
@@ -75,7 +79,7 @@ namespace HumaneSociety
         {
             get
             {
-             
+
                 return hasShots;
             }
             set
@@ -87,33 +91,39 @@ namespace HumaneSociety
         public virtual bool IsSick
         {
             get { return isSick; }
-            set{ isSick = value; }
+            set { isSick = value; }
         }
 
         public virtual int AnimalId
         {
-            get;
-            set;
+            get { return animalId; }
+
+            set{ animalId = value; }
         }
 
         public virtual bool IsFed
         {
-            get;
-            set;
+            get { return isFed; }
+            set { isFed = value; }
         }
 
-        public float AnimalWeight
+        public double AnimalWeight
         {
-            get;
-            set;
+            get { return animalWeight; }
+            set { animalWeight = value; }
         }
+        public int KennelNumber
+        {
+            get { return kennelNumber; }
+            set { kennelNumber = kennels.KennelNumber; }
 
 
-        //    public virtual Kennel Kennels
-        //    {
-        //        get;
-        //        set;
-        //    }
+            //    public virtual Kennel Kennels
+            //    {
+            //        get;
+            //        set;
+            //    }
 
+        }
     }
 }

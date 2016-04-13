@@ -36,8 +36,8 @@ namespace HumaneSociety
             switch (userInput)
             {
                 case 1:
-                   
-                   // AdoptionOps.addAnimal();
+                    EnterAnimals.GetEnterAnimal();
+                    //AdoptionOps.addAnimal(EnterAnimals);
                     break;
                 case 2:
                     AdoptionOps.removeAnimal();

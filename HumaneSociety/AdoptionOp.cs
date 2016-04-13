@@ -17,14 +17,14 @@ namespace HumaneSociety
         }
 
 
-        public virtual void addAnimal(Animal animals)
-        {
+        //public virtual string addAnimal(Animal animalType)
+        //{
 
-            kennels.Add(new Kennel(animals));
+        //    kennels.Add(new Kennel(animalType));
 
 
-            throw new System.NotImplementedException();
-        }
+        //    throw new System.NotImplementedException();
+        //}
 
         public virtual void removeAnimal()
         {

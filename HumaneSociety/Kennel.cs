@@ -10,21 +10,19 @@ namespace HumaneSociety
    public class Kennel 
     {
         private int kennelNumber;
-        public Animal animals;
+        //public Animal animals;
         //public Kennel kennels;
         public int i;
         public Kennel()
         {
-           // i = kennels.KennelNumber;
-
-            kennelNumber = KennelNumber;
             
+            kennelNumber = KennelNumber;         
             
         }
-        public Kennel(Animal animalsToAdd)
-        {
-            animals = animalsToAdd;
-        }
+        //public Kennel(Animal animalType)
+        //{
+        //    animals = AdoptionOps.animals;
+        //}
 
         public virtual int KennelNumber
         {
